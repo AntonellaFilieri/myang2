@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myang';
+  myArticle;
+  constructor() {
+    this.myArticle = {
+      title: 'Creare componenti Angular 2',
+      author: 'Mario Rossi',
+      content: 'Creare componenti con Angular 2 è molto semplice.',
+      numberlike: 0,
+    };
+  }
 }
